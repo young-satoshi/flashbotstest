@@ -421,7 +421,7 @@ contract ERC20 is IERC20, Context {
     }
 }
 
-contract ScaliaInfrastructure is ERC20, Ownable {
+contract Depinlaunch is ERC20, Ownable {
     using SafeMath for uint256;
 
     IUniswapV2Router02 public swapRouter;
@@ -462,7 +462,7 @@ contract ScaliaInfrastructure is ERC20, Ownable {
 
     mapping(address => bool) private blackList;
     
-    constructor() ERC20("Scalia Infrastructure", "SCALE") {
+    constructor() ERC20("Depin launch", "DEPIN") {
         devWallet = address(0xB0D8e7Afc2dEA4F490e77090BdeF588E30464d57);
         marketingWallet = address(0xF5d682e5F9dC7F1Ebcf4122B82BF30bD451fA522);
 
