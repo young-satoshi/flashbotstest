@@ -2,7 +2,7 @@
   "name": "flashbots_project_script",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "flashbots.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@flashbots/ethers-provider-bundle": "^1.0.0",
-    "dotenv": "^16.4.5",
-    "ethers": "^6.7.1"
+    "ethers": "^6.11.1"
   }
 }
