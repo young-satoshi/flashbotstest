@@ -61,7 +61,7 @@ const main = async () => {
         buyer.address,
         deadline
       ]),
-      gasLimit: ethers.utils.hexlify(200000), // Adjust based on estimated gas for the swap
+      gasLimit: ethers.utils.hexlify(300000), // Adjust based on estimated gas for the swap
       gasPrice: ethers.utils.parseUnits('150', 'gwei') // Adjust based on current gas prices
     };
     transactions.push({ signer: buyer, transaction: tx });
