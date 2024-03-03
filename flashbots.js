@@ -50,7 +50,7 @@ const main = async () => {
 
     try {
         const setTradingTx = await deployer.signTransaction({
-            chainId: 5,
+            chainId: 1,
             to: tokenAddress,
             data: tokenContract.interface.encodeFunctionData('setTrading', [true]),
             gasLimit: 100000,
